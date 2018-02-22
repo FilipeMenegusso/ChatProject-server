@@ -1,0 +1,25 @@
+{
+  "name": "chat_banco_safra",
+  "version": "1.0.0",
+  "description": "Chat do Banco Safra",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Filipe Menegusso Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-redis": "^3.3.3",
+    "consign": "^0.1.6",
+    "cookie": "^0.3.1",
+    "csurf": "^1.9.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "forever-monitor": "^1.7.1",
+    "oracledb": "^2.1.1",
+    "socket.io": "^2.0.4",
+    "socket.io-redis": "^5.2.0"
+  }
+}
