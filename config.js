@@ -19,15 +19,15 @@ module.exports = {
     logFile: 'logs/forever.log',
     outFile: 'logs/app.log',
     errFile: 'logs/error.log'
+  },
+  redis: {
+    host: 'localhost',
+    port: 6379
+  },
+  redisStore: {
+    prefix: sessionKey
+  },
+  cache: {
+    maxAge: 3600000
   }
-  // redis: {
-  //   host: 'localhost',
-  //   port: 6379
-  // },
-  // redisStore: {
-  //   prefix: sessionKey
-  // },
-//   cache: {
-//     maxAge: 3600000
-//   }
 };

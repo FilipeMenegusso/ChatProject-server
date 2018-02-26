@@ -10,7 +10,7 @@ const csurf = require('csurf');
 const expressSession = require('express-session');
 const config = require('./config');
 const redisAdapter = require('socket.io-redis');
-// const RedisStore = require('connect-redis')(expressSession)
+const RedisStore = require('connect-redis')(expressSession)
 
 
 const app = express();
