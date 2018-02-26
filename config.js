@@ -9,9 +9,9 @@ module.exports = {
 //     test: 'mongodb://localhost:27017/ntalk_test',
 //     development: 'mongodb://localhost:27017/ntalk'
 //   },
-//   mongoose: {
-//     useMongoClient: true
-//   },
+  mongoose: {
+    useMongoClient: true
+  },
   forever: {
     max: 10,
     silent: true,
