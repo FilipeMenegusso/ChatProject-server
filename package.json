@@ -18,7 +18,7 @@
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "forever-monitor": "^1.7.1",
-    "oracledb": "^2.1.1",
+    "oracledb": "^2.1.2",
     "socket.io": "^2.0.4",
     "socket.io-redis": "^5.2.0"
   },

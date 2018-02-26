@@ -1,9 +1,9 @@
-// const sessionKey = 'ntalk.id';
-// const sessionSecret = 'ntalk_secret';
+const sessionKey = 'ntalk.id';
+const sessionSecret = 'ntalk_secret';
 
 module.exports = {
-//   sessionKey,
-//   sessionSecret,
+  sessionKey,
+  sessionSecret,
 //   env: process.env.NODE_ENV || 'development',
 //   mongodb: {
 //     test: 'mongodb://localhost:27017/ntalk_test',
@@ -19,14 +19,14 @@ module.exports = {
     logFile: 'logs/forever.log',
     outFile: 'logs/app.log',
     errFile: 'logs/error.log'
-  },
-  redis: {
-    host: 'localhost',
-    port: 6379
-  },
-  redisStore: {
-    prefix: sessionKey
-  },
+  }
+  // redis: {
+  //   host: 'localhost',
+  //   port: 6379
+  // },
+  // redisStore: {
+  //   prefix: sessionKey
+  // },
 //   cache: {
 //     maxAge: 3600000
 //   }
